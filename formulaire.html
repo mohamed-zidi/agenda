@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html id="formulaire"lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header></header>
+    <main> 
+        <form method="post" action="formulaire-agenda.php" id="form">
+            <fieldset class="field">
+                <label for="titre"></label> <input type="text" name="titre" id="titre" placeholder="Ajouter un titre" size="40" maxlength="30" required> <br>
+                <br>
+                <label for="choix">Choisir</label>: 
+                    <select name="choix" id="choix" required>
+                        
+                        <option value=" Evénement">Evénement</option>
+                        <option value="Tache">Tache</option>
+                        <option value="Rappel">Rappel</option>
+
+                        </select> 
+
+                        <br>
+                        <br>
+
+                
+                    <label for="date"> Date et heure </label> : <input type="datetime-local" name="date" id="date" minlength="10" maxlength="10" size="20"  required>  
+                    <br>
+                    <br>
+                    <label for="journée"> Journée entière </label> <input type="checkbox" name="journée" id="journée"> 
+                    <br>
+                    <br>
+                    <label for="lieu">Choisir un lieu</label> <input type="text" name="lieu" id="lieu" maxlength="30" size="40" placeholder="Marseille, La Plateforme">
+                    <br>
+                    <br>
+                    <label for="description">Ajouter une description</label> <br> <textarea name="description" id="description" cols="50" rows="10" placeholder="Ajouter une description"></textarea>
+                    
+                    
+
+            
+        
+        
+        
+        
+        
+        
+        
+            </fieldset>
+
+            <p style="margin-left: 30%;"> <input type="submit" value="Enregistrer"> </p>
+        </form>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

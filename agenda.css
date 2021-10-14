@@ -1,0 +1,116 @@
+
+th,td {
+    border-right: solid;
+    width: 12%;
+    height: 20%;
+    padding: 2% 2%;
+    border-radius: 8%;
+   
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+.sleep
+{
+    background-color: #F9CF93;
+}
+.white {
+    background-color: white;
+}
+
+.workout
+{
+    background-color: #DBD0C0;
+}
+
+.bball
+{
+    background-color: #FAEEE0;
+}
+
+
+.button
+{
+    display: inline-block;
+    background-color: #F9E4C8;
+    border-radius: 10%;
+    border: solid 2px black;
+
+}
+
+
+#formulaire
+{
+    background-color:#F9CF93 ;
+}
+
+
+.field
+{
+    max-width: 40%;
+    margin-left: 30%;
+    
+}
+
+#date:focus
+{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:visited
+{
+    color: black;
+    
+}
+
+.lien
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
